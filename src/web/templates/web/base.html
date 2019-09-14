@@ -38,16 +38,17 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="">Movies</a>
+                        <a class="navbar-brand" href="{% url 'index' %}">Movies</a>
                     </div>
 
                     <!-- Items -->
                     <div class="collapse navbar-collapse" id="topNavBar">
-                        <ul class="nav navbar-nav ">
+                      <!--  <ul class="nav navbar-nav ">
                             
                             <li><a href="{% url 'index' %}">&nbsp; Home</a></li>
                  
-						</ul>
+                        </ul>
+                        -->
 					
                         <ul class="nav navbar-nav navbar-right">
                          {% if not request.user.is_authenticated %}
@@ -83,10 +84,10 @@
         <hr>
           <div class="text-center center-block">
             <br />
-                <a href="https://www.facebook.com/profile.php?id=100004918600612"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
-                <a href="https://twitter.com/asif536"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
-                <a href="https://www.linkedin.com/in/mohd-asif-984a35121/"><i class="fa fa-linkedin-square fa-3x social"></i></a>
-                <a href="https://github.com/asif536"><i id="social-git"class="fa fa-github-square fa-3x"></i></a>
+                <a href="https://www.facebook.com/anisar840/" target="_blank"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                <a href="https://twitter.com/ahmed04786/" target="_blank"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                <a href="https://www.linkedin.com/in/ahmed04786/" target="_blank"><i class="fa fa-linkedin-square fa-3x social"></i></a>
+                <a href="https://github.com/mnisarahmed/" target="_blank"><i id="social-git"class="fa fa-github-square fa-3x"></i></a>
         </div>
         <hr>
         <div class="footer-copyright text-center py-3">© 2019 Copyright:
